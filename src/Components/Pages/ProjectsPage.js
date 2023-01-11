@@ -37,7 +37,7 @@ export const ProjectsPage = (props) => {
                     title='My portfolio site'
                     text="Hey! you are actuallly viewing this project! 
                     Why don't you view my source code on Github to see how I built this page?"
-                    github='https://github.com/zkwong0804/SupermarketAPI-dotnet'
+                    github='https://github.com/zkwong0804/my-portfolio'
                     live='' />
                 <ProjectCard
                     img='./supermarket-api.png'
