@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  padding-top: 60px;
+}
+
+.project-thumbnail {
+  max-width: 640px;
+  max-height: 480px;
+}

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+
+import "bootswatch/dist/superhero/bootstrap.min.css"
 import './App.css';
+
+import { PortfolioNav } from './Components/Nav/PortfolioNav';
+import { WelcomePage } from './Components/Pages/WelcomePage'
+import { IntroductionPage } from './Components/Pages/IntroductionPage'
+import { ProjectsPage } from './Components/Pages/ProjectsPage'
+import { ContactPage } from './Components/Pages/ContactPage'
+import { ExperiencePage } from './Components/Pages/ExperiencePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PortfolioNav />
+      <WelcomePage />
+      <IntroductionPage />
+      <ExperiencePage />
+      <ProjectsPage />
+      <ContactPage />
     </div>
   );
 }
+
 
 export default App;
